@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Compose Canvas Drawing</string>
+    
+    <!-- Main -->
+    <string name="clear_canvas">Clear Canvas</string>
 </resources>

@@ -27,6 +27,9 @@ android {
 
     kotlinOptions {
         jvmTarget = libs.versions.java.target.get()
+        freeCompilerArgs += listOf(
+            "-opt-in=kotlin.uuid.ExperimentalUuidApi"
+        )
     }
 
     buildFeatures {
@@ -57,4 +60,7 @@ dependencies {
 
     // core
     implementation(libs.core)
+
+    // collections
+    implementation(libs.collections)
 }
